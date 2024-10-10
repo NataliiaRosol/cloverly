@@ -11,6 +11,7 @@
   <script defer src="main.js" ></script>
 </head>
 <body>
+  <div class="overlay"></div>
   <header class="header">
     <div class="container">
       <div class="header-inner">
@@ -20,13 +21,11 @@
         </a>
       </div>
       <nav class="nav">
-        
-      
-        <div class="nav-menu">
-          
+                 
         <div class="menu-body header-menu">
           <div class="menu-list">
             <ul class="menu ">
+              <li class="menu-close">X</li>
               <li class="menu-item"><a href="#!" class="menu-item-link">Product</a></li>
               <li class="menu-item"><a href="#!" class="menu-item-link">Use Cases</a></li>
               <li class="menu-item"><a href="#!" class="menu-item-link">Developers</a></li>
@@ -42,7 +41,6 @@
               
             </ul>
           </div>
-        </div>
       </div>
       <div class="menu-icon">
         <span></span>
@@ -59,12 +57,12 @@
       <div class="container">
           <div class="top-inner">
             <div class="top-content">
-              <a href="#!" class="top-link">Sustainability on Demand</a>
+              <span class="top-link">Sustainability on Demand</span>
               <h1 class="top-title">Helping the World Go Carbon Neutral</h1>
               <p class="top-text">Our Sustainability-as-a-Service platform calculates and purchases carbon offsets to neutralize the environmental impact of everyday activities like ecommerce deliveries, ridesharing, flights, and more.</p>
               <div class="buttons-top">
-                <a href="" class="top-btn top-btn-start">Get Started</a>
-                <a href="" class="top-btn top-btn-talk">Let's Talk</a>
+                <a href="#!" class="top-btn top-btn-start">Get Started</a>
+                <a href="#!" class="top-btn top-btn-talk">Let's Talk</a>
               </div>
               
             </div>
@@ -312,7 +310,8 @@
     <div class="container">
       <div class="footer-header">
         <div class="footer-logo">
-          <img src="./img/footer-logo.svg" alt="">
+          <a href="#!"><img src="./img/footer-logo.svg" alt=""></a>
+          
         </div>
         <div class="footer-links">
           <a href="#!" class="footer-login">Login</a>
@@ -342,8 +341,8 @@
         </ul>
         <ul class="footer-content-item">
           <p class="footer-item-header">Developers</p>
-          <li class="footer-item-link">API Docs</li>
-          <li class="footer-item-link">Ask Cloverly</li>
+          <li class="footer-item-link"><a href="">API Docs</a></li>
+          <li class="footer-item-link"><a href="">Ask Cloverly</a></li>
         </ul>
         <ul class="footer-content-item">
           <p class="footer-item-header"><a href="">About</a></p>
@@ -363,7 +362,7 @@
         </ul>
       </div>
       <div class="footer-bottom">
-        <p class="footer-bottom-copy">© 2020 Cloverly</p>
+        <p class="footer-bottom-copy">©2020 Cloverly</p>
       </div>
     </div>
   </footer>

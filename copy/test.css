@@ -1,0 +1,10 @@
+.menu-item-link-btn:hover{
+  transform: scale(110%);
+  box-shadow: 2px 2px 3px 0 #192F44;
+  color: var(--white-color);
+  background-color: var(--green-color);
+  border: 2px solid var(--green-color);
+}
+.df{
+  transition: all 0.3s;
+}
